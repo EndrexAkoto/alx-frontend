@@ -1,0 +1,27 @@
+/* styles/2-style.css */
+
+/* Define custom properties for colors */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+  }
+  
+  /* Revisit the section-tagline and card-category declarations */
+  .section-tagline,
+  .card-category {
+    color: var(--color-primary);
+  }
+  
+  /* Revisit the body and anchor declarations */
+  body {
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--text-color);
+  }
+  

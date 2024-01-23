@@ -1,0 +1,11 @@
+/* styles/9-style.css */
+
+/* Custom property for section header alignment */
+:root {
+    --section-header-align: center;
+  }
+  
+  /* Center alignment for section header */
+  .section-header {
+    text-align: var(--section-header-align);
+  }

@@ -1,0 +1,17 @@
+/* styles/5-style.css */
+
+/* Define custom font-weight properties */
+:root {
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  }
+  
+  /* Set the font weight for the body */
+  body {
+    font-weight: var(--font-weight-regular);
+  }
+  
+  /* Set the font weight for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: var(--font-weight-bold);
+  }

@@ -1,0 +1,21 @@
+/* styles/4-style.css */
+
+/* Define custom font-size properties */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+  }
+  
+  /* Set the base font size for the html element */
+  html {
+    font-size: 62.5%; /* 62.5% of the default font size */
+  }
+  
+  /* Set body font size to font-size-medium */
+  body {
+    font-size: var(--font-size-medium);
+  }
+  

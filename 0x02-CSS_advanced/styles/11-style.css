@@ -1,0 +1,14 @@
+/* styles/10-style.css */
+
+/* Custom property for section tagline transformation */
+:root {
+    --section-tagline-transform: uppercase;
+  }
+  
+  /* Styles for section tagline */
+  .section-tagline {
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+  }
+  

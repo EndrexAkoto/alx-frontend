@@ -1,0 +1,6 @@
+/* styles/8-style.css */
+
+/* Remove default text decoration from anchor elements */
+a {
+    text-decoration: none;
+  }
